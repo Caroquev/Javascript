@@ -9,7 +9,7 @@ i veuràs els canvis al teu navegador.
 Després de confirmar que funciona, comenta"l.
 */
 
-console.log("hello me");
+console.log("I am here");
 
 /*
 2)
@@ -17,8 +17,13 @@ Fent servir tant l'operador (+) com l'operador (*),
 multiplica i afegeix qualsevol combinació de números
 per aconseguir imprimir el número 10.
 */
+let sumando1=5
+let sumando2=2
 
-// console.log()
+console.log(sumando1*sumando2)
+let sum1=6
+let sum2=4
+console.log(sum1+sum2)
 
 /*
 3)
@@ -27,18 +32,17 @@ Pots afegir diversos arguments a dins del parèntesi del
 console.log (separant-los amb comes).
 Afegeix el següent dins el console.log!
 
-3 + 4, " should equal 7"
-*/
-
-// console.log()
-
+console.log(3+4,"should be 7")
 /*
+
+
 4)
 Afegeix dos `strings` per imprimir
 el teu nom i cognom conjuntament!
 */
-
-// console.log()
+let name1="Maria"
+let name2="Perez"
+console.log(name1+name2)
 
 /*
 5)
@@ -47,7 +51,9 @@ d'una divisió. Si dividim qualsevol número entre 2
 podrem saber si és parell o senar. Prova-ho!
 */
 
-// console.log()
+ console.log(sumando1/sumando2);
+ console.log (sum1/sumando2);
+
 
 /*
 6)
@@ -59,26 +65,30 @@ Nota: també hauràs de "descomentar" el console.log
 per imprimir la localització.
 */
 
-const name = "Mia";
+let name = "Mia";
 let currentLocation = "school";
-
-// console.log(name, " is currently at ", currentLocation);
+currentLocation= "home";
+console.log(name, " is currently at ", currentLocation);
 
 /*
 7)
 Crea variables per que el missatge s'imprimeixi
 correctament a la consola!
 */
-
-// console.log(person, " went to the ", place, " to eat ", food, ".");
+let person="Ana";
+let place="restaurant";
+let food="macarrons";
+console.log(person, " went to the ", place, " to eat ", food, ".");
 
 /*
 8)
 Ara, reassigna totes les variables anteriors per
 imprimir un nou missatge a la consola!
 */
-
-// console.log(person, " went to the ", place, " to eat ", food, ".");
+person="Pablo";
+place="park";
+food="hot dog";
+console.log(person, " went to the ", place, " to eat ", food, ".");
 
 /*
 9)
@@ -88,12 +98,12 @@ Tot i així, hi ha un problema amb la forma en què
 aquesta variable ha estat declarada. Corregeix-la!
 */
 
-// const count = 0;
-// count = count + 1;
-// count += 1;
-// count++;
+let count = 0;
+count = count + 1;
+count += 1;
+count++;
 
-// console.log(count, " should be 3");
+console.log(count, " should be 3");
 
 /*
 10)
