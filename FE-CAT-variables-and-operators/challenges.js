@@ -118,6 +118,17 @@ fas la permuta. Fes-te un esquema si ho necessites!
 
 let a = 1;
 let b = 2;
+console.log (a);
+console.log (b);
+let temp=1
+a=b
+console.log (a);
+console.log (b);
+console.log (temp);
+b=temp
+console.log(a);
+console.log (b);
+
 
 // console.log("BEFORE > a is: ", a, " - and b is: ", b);
 
@@ -131,7 +142,7 @@ let b = 2;
 Fes que la següent afirmació resulti "true"!
 */
 
-// console.log(3 > 4);
+console.log(3 < 4);
 
 /*
 12)
@@ -141,7 +152,7 @@ Fes que la següent afirmació resulti "false".
 let x = 10;
 let y = x++;
 
-// console.log(x >= y);
+ console.log(x <= y);
 
 /*
 13)
@@ -149,7 +160,7 @@ Soluciona l'operador de comparació per què
 l'afirmació següent resulti "false".
 */
 
-// console.log(3 == "3");
+console.log(3 === "3");
 
 /*
 14)
@@ -157,10 +168,10 @@ Modifica l'expressió de sota per què
 no resulti "false".
 */
 
-const sunny = true;
-const warm = true;
+let sunny = true;
+let warm = true;
 
-// console.log(sunny != warm);
+console.log(sunny = warm);
 
 /*
 15)
