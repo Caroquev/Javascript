@@ -51,8 +51,8 @@ d'una divisió. Si dividim qualsevol número entre 2
 podrem saber si és parell o senar. Prova-ho!
 */
 
- console.log(sumando1/sumando2);
- console.log (sum1/sumando2);
+ console.log(5%2);
+ console.log (4%2);
 
 
 /*
@@ -171,7 +171,7 @@ no resulti "false".
 let sunny = true;
 let warm = true;
 
-console.log(sunny = warm);
+console.log(sunny == warm);
 
 /*
 15)
@@ -185,3 +185,6 @@ has après fins ara.
   - Fer servir els operadors: (=) (+=) (-=) (*=)(++) (- -).
   - Fer servir els operadors: (>) (<) (>=) (<=) (== vs ===) (!==).
 */
+
+let nom="maria"
+console.log(nom)
